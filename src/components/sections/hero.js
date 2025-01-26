@@ -60,32 +60,26 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Mateusz Sroka.</h2>;
+  const three = <h3 className="big-heading">I build things for the web and Web3</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        I’m a developer advocate specializing in creating tools and fostering communities that
+        empower developers in the blockchain and crypto space. Currently, I’m focused on building
+        accessible, data-driven products and connecting innovators to Web3 opportunities at{' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+          DexPaprika
+        </a>{' '}
+        &{' '}
+        <a href="https://coinpaprika.com/" target="_blank" rel="noreferrer">
+          CoinPaprika
         </a>
-        .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
